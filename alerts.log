@@ -1,0 +1,95 @@
+[Sudo Usage] system.log:22087:Feb 23 09:50:56 kali sudo[2023]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+[Sudo Usage] system.log:22088:Feb 23 09:50:56 kali sudo[2023]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:22090:Feb 23 09:51:51 kali sudo[2023]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:22091:Feb 23 09:51:51 kali sudo[2535]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+[Sudo Usage] system.log:22092:Feb 23 09:51:51 kali sudo[2535]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:22096:Feb 23 09:55:27 kali sudo[2535]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24413:Feb 23 09:58:24 kali sudo[1819]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+[Sudo Usage] system.log:24414:Feb 23 09:58:24 kali sudo[1819]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24415:Feb 23 09:58:27 kali sudo[1819]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24416:Feb 23 09:58:27 kali sudo[1893]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install wget gpg apt-transport-https -y
+[Sudo Usage] system.log:24417:Feb 23 09:58:27 kali sudo[1893]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24418:Feb 23 09:58:38 kali sudo[1893]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24419:Feb 23 09:58:49 kali sudo[2288]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+[Sudo Usage] system.log:24420:Feb 23 09:58:49 kali sudo[2288]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24421:Feb 23 09:58:49 kali sudo[2288]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24422:Feb 23 09:59:03 kali sudo[2406]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+[Sudo Usage] system.log:24423:Feb 23 09:59:03 kali sudo[2406]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24424:Feb 23 09:59:03 kali sudo[2406]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24426:Feb 23 09:59:13 kali sudo[2495]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+[Sudo Usage] system.log:24427:Feb 23 09:59:13 kali sudo[2495]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24428:Feb 23 09:59:14 kali sudo[2495]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24429:Feb 23 09:59:14 kali sudo[2540]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install code -y
+[Sudo Usage] system.log:24430:Feb 23 09:59:14 kali sudo[2540]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24431:Feb 23 10:01:24 kali sudo[2540]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24432:Feb 23 10:02:19 kali sudo[4114]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+[Sudo Usage] system.log:24433:Feb 23 10:02:19 kali sudo[4114]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24434:Feb 23 10:02:21 kali sudo[4114]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:24435:Feb 23 10:02:21 kali sudo[4157]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install code -y
+[Sudo Usage] system.log:24436:Feb 23 10:02:21 kali sudo[4157]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:24437:Feb 23 10:02:22 kali sudo[4157]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:26590:Feb 24 09:58:49 kali sudo[22800]:     kali : TTY=pts/1 ; PWD=/home/kali/bashassignment ; USER=root ; COMMAND=./q3_log_analyzer.sh
+[Sudo Usage] system.log:26591:Feb 24 09:58:49 kali sudo[22800]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:26592:Feb 24 09:58:49 kali sudo[22800]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:26593:Feb 24 10:02:58 kali sudo[24955]:     kali : TTY=pts/1 ; PWD=/home/kali/bashassignment ; USER=root ; COMMAND=./q3_log_analyzer.sh
+[Sudo Usage] system.log:26594:Feb 24 10:02:58 kali sudo[24955]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Sudo Usage] system.log:26595:Feb 24 10:02:58 kali sudo[24960]:     root : TTY=pts/2 ; PWD=/home/kali/bashassignment ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+[Sudo Usage] system.log:26596:Feb 24 10:02:58 kali sudo[24960]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+[Sudo Usage] system.log:26597:Feb 24 10:02:58 kali sudo[24960]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:26598:Feb 24 10:02:58 kali sudo[24964]:     root : TTY=pts/2 ; PWD=/home/kali/bashassignment ; USER=root ; COMMAND=/usr/bin/journalctl -p err
+[Sudo Usage] system.log:26599:Feb 24 10:02:58 kali sudo[24964]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+[Sudo Usage] system.log:26600:Feb 24 10:02:58 kali sudo[24964]: pam_unix(sudo:session): session closed for user root
+[Sudo Usage] system.log:26601:Feb 24 10:02:58 kali sudo[24968]:     root : TTY=pts/2 ; PWD=/home/kali/bashassignment ; USER=root ; COMMAND=/usr/bin/journalctl
+[Sudo Usage] system.log:26602:Feb 24 10:02:58 kali sudo[24968]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+[Authentication Failure] system.log:3517:Feb 05 03:17:15 kali su[2368]: pam_unix(su:auth): authentication failure; logname=kali uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=root
+[Authentication Failure] system.log:3520:Feb 05 03:17:24 kali su[2455]: pam_unix(su:auth): authentication failure; logname=kali uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=root
+[Authentication Failure] system.log:3523:Feb 05 03:17:36 kali su[2542]: pam_unix(su:auth): authentication failure; logname=kali uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=root
+[Root Access] system.log:3490:Feb 05 03:17:00 kali CRON[2171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:5719:Feb 07 01:25:01 kali CRON[2234]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:8058:Feb 07 01:35:01 kali CRON[4183]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:8063:Feb 07 01:39:01 kali CRON[6126]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:8082:Feb 07 01:45:01 kali CRON[9299]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:10119:Feb 07 02:55:01 kali CRON[4455]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:12461:Feb 07 08:05:01 kali CRON[3000]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:12464:Feb 07 08:09:01 kali CRON[4936]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:12470:Feb 07 08:15:01 kali CRON[7944]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:12473:Feb 07 08:17:01 kali CRON[8988]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:12494:Feb 07 08:25:01 kali CRON[13023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14832:Feb 07 08:55:01 kali CRON[2530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14868:Feb 07 09:05:01 kali CRON[7417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14875:Feb 07 09:09:01 kali CRON[9341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14963:Feb 07 09:15:01 kali CRON[12697]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14966:Feb 07 09:17:01 kali CRON[13661]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14975:Feb 07 09:25:01 kali CRON[17625]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14984:Feb 07 09:35:01 kali CRON[22506]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:14993:Feb 07 09:39:01 kali CRON[24517]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:15005:Feb 07 09:45:01 kali CRON[27534]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:17328:Feb 07 10:25:01 kali CRON[5616]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:17380:Feb 07 12:45:24 kali CRON[9383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:19459:Feb 08 02:17:01 kali CRON[1168]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:22088:Feb 23 09:50:56 kali sudo[2023]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:22092:Feb 23 09:51:51 kali sudo[2535]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:22093:Feb 23 09:55:01 kali CRON[4071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:24414:Feb 23 09:58:24 kali sudo[1819]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24417:Feb 23 09:58:27 kali sudo[1893]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24420:Feb 23 09:58:49 kali sudo[2288]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24423:Feb 23 09:59:03 kali sudo[2406]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24427:Feb 23 09:59:13 kali sudo[2495]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24430:Feb 23 09:59:14 kali sudo[2540]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24433:Feb 23 10:02:19 kali sudo[4114]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24436:Feb 23 10:02:21 kali sudo[4157]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:24441:Feb 23 10:05:01 kali CRON[5700]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:24447:Feb 23 10:09:01 kali CRON[7809]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:24464:Feb 23 10:15:01 kali CRON[10753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:24467:Feb 23 10:17:01 kali CRON[11717]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:24470:Feb 23 10:25:01 kali CRON[17244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26544:Feb 24 09:25:01 kali CRON[5258]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26563:Feb 24 09:35:01 kali CRON[10723]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26566:Feb 24 09:39:01 kali CRON[12853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26572:Feb 24 09:45:01 kali CRON[15772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26587:Feb 24 09:55:01 kali CRON[20664]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+[Root Access] system.log:26591:Feb 24 09:58:49 kali sudo[22800]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:26594:Feb 24 10:02:58 kali sudo[24955]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+[Root Access] system.log:26596:Feb 24 10:02:58 kali sudo[24960]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+[Root Access] system.log:26599:Feb 24 10:02:58 kali sudo[24964]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+[Root Access] system.log:26602:Feb 24 10:02:58 kali sudo[24968]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)

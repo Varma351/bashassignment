@@ -1,0 +1,59 @@
+Feb 05 03:07:04 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+-- Boot e2e4c0ec2d5c4f3a9fcc4903ac96e1bf --
+Feb 05 03:15:50 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 05 03:16:00 kali lightdm[1122]: gkr-pam: unable to locate daemon control file
+Feb 05 03:16:05 kali obexd[1627]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 05 03:16:05 kali obexd[1627]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 5016d33b1a0441d0a34206d97fac2ae6 --
+Feb 07 01:24:01 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 01:24:11 kali lightdm[1267]: gkr-pam: unable to locate daemon control file
+Feb 07 01:24:16 kali obexd[1796]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 01:24:16 kali obexd[1796]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 535c794df88d4823acdb90d618dc942e --
+Feb 07 01:29:56 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 01:30:06 kali lightdm[1046]: gkr-pam: unable to locate daemon control file
+Feb 07 01:30:10 kali obexd[1612]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 01:30:10 kali obexd[1612]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 9c7bdcb45fb64bdcbb1748464a0781a3 --
+Feb 07 02:49:26 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 02:49:44 kali lightdm[1102]: gkr-pam: unable to locate daemon control file
+Feb 07 02:49:48 kali obexd[1622]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 02:49:48 kali obexd[1622]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 03:00:54 kali (sd-pam)[1128]: pam_systemd(systemd-user:session): Varlink call io.systemd.Login.ReleaseSession failed: io.systemd.Login.NoSuchSession
+-- Boot 95fa3b07a02b4e43bfc93ff72dda7fe2 --
+Feb 07 08:02:37 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 08:02:56 kali lightdm[1246]: gkr-pam: unable to locate daemon control file
+Feb 07 08:02:59 kali obexd[1787]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 08:02:59 kali obexd[1787]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 5ee64a5c6a734213b354b2efe9032cb7 --
+Feb 07 08:53:02 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 08:53:02 kali (generato[359]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+Feb 07 08:53:26 kali lightdm[1111]: gkr-pam: unable to locate daemon control file
+Feb 07 08:53:31 kali obexd[1660]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 08:53:31 kali obexd[1660]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 657722d05a234a24a5552ccd5115c7b8 --
+Feb 07 10:17:01 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 07 10:17:01 kali (generato[351]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+Feb 07 10:17:14 kali lightdm[1106]: gkr-pam: unable to locate daemon control file
+Feb 07 10:17:20 kali obexd[1653]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 07 10:17:20 kali obexd[1653]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 79ff1b29eaee42c7b916bbd36c8046d4 --
+Feb 08 02:16:47 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 08 02:17:04 kali lightdm[1166]: gkr-pam: unable to locate daemon control file
+Feb 08 02:17:08 kali obexd[1724]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 08 02:17:08 kali obexd[1724]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 8982b8568ca548c187c5966810c73d74 --
+Feb 23 09:50:23 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 23 09:50:33 kali lightdm[1222]: gkr-pam: unable to locate daemon control file
+Feb 23 09:50:37 kali obexd[1762]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 23 09:50:37 kali obexd[1762]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 4c19ceb3346f48e998a8332228b61091 --
+Feb 23 09:56:10 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 23 09:58:04 kali lightdm[1053]: gkr-pam: unable to locate daemon control file
+Feb 23 09:58:07 kali obexd[1584]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 23 09:58:07 kali obexd[1584]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+-- Boot 8a43bb3821be4159a84dc84eeca93aff --
+Feb 24 09:18:25 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Feb 24 09:18:45 kali lightdm[1318]: gkr-pam: unable to locate daemon control file
+Feb 24 09:18:48 kali obexd[1860]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Feb 24 09:18:48 kali obexd[1860]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
