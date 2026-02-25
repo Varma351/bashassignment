@@ -1,0 +1,3 @@
+tar: Removing leading `/' from member names
+tar: /home/kali/bashassignment/backups/backup_2026-02-24_22-22.tar.gz: file changed as we read it
+Tue Feb 24 10:22:33 PM EST 2026 - FAILED - Backup failed!

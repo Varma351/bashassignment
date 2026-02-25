@@ -1,0 +1,79 @@
+Report generated on: Tue Feb 24 10:24:07 PM EST 2026
+----------------------------------------
+All system users:
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+dhcpcd
+systemd-timesync
+messagebus
+tss
+strongswan
+tcpdump
+sshd
+_rpc
+dnsmasq
+avahi
+nm-openvpn
+speech-dispatcher
+usbmux
+nm-openconnect
+pipewire
+lightdm
+statd
+saned
+polkitd
+rtkit
+colord
+pcscd
+mysql
+stunnel4
+geoclue
+Debian-snmp
+sslh
+cups-pk-helper
+redsocks
+_gophish
+iodine
+miredo
+redis
+postgres
+mosquitto
+inetsim
+_gvm
+kali
+
+Accounts with UID 0 (root privileges):
+root
+
+Accounts with no password set:
+
+Currently logged-in users:
+kali     seat0        2026-02-24 22:19 (:0)
+
+Recent login history:
+kali     tty7         :0               Tue Feb 24 22:19 - still logged in
+lightdm  tty7         :0               Tue Feb 24 22:18 - 22:19  (00:00)
+kali     tty7         :0               Tue Feb 24 09:18 - 10:21  (01:02)
+lightdm  tty7         :0               Tue Feb 24 09:18 - 09:18  (00:00)
+kali     tty7         :0               Mon Feb 23 09:58 - still logged in
+
+wtmpdb begins Mon Feb 23 09:58:04 2026
+
+----------------------------------------
