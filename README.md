@@ -96,7 +96,7 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-**Tharun Varma K**
+**K Tharun Varma **
 Student Project – Linux & Cybersecurity
 
 ---
