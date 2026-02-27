@@ -1,7 +1,4 @@
 #!/bin/bash
-# =========================================================
-# FILE MANAGEMENT SYSTEM
-# =========================================================
 
 #using loop statements to run this infinitely until manually terminated 
 while true

@@ -1,106 +1,99 @@
-# 🐧 Bash Assignment – Linux User Security & Audit Scripts
+# Basic Linux Shell Scripts
 
-This repository contains Bash scripts created as part of a Linux / Cybersecurity assignment.
-The scripts focus on **user auditing, security checks, login monitoring, and system reporting** using standard Linux command-line tools.
+## About
 
----
-
-## 📌 Features
-
-* List all system users
-* Detect root-privileged accounts (UID 0)
-* Identify accounts without passwords
-* Show currently logged-in users
-* Display recent login history
-* Generate a formatted security report file
-
-The scripts demonstrate use of common Linux tools such as:
-
-* `awk`
-* `cut`
-* `who`
-* `last`
-* `sudo` access to `/etc/shadow`
+This repository contains simple Bash scripts that I created while learning Linux shell scripting. These programs are beginner-level and help me understand basic commands and automation.
 
 ---
 
-## 📂 Example Script Functionality
+## Files
 
-The main script generates a report containing:
+### 1. q1_system_info.sh  
+This script shows system details like:
+- Hostname  
+- User  
+- Date and time  
+- OS and kernel version  
+- CPU, memory, disk usage  
+- IP address  
 
-* All users in `/etc/passwd`
-* Root-level accounts
-* Password status from `/etc/shadow`
-* Active sessions
-* Login history
-
-Example output:
-
-```
-User Security Report
----------------------
-All system users:
-root
-daemon
-kali
-
-Accounts with UID 0:
-root
-
-Currently logged in users:
-kali tty7 still logged in
-```
-
----
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-
+Run:
 ```bash
-git clone https://github.com/Varma351/bashassignment.git
-cd bashassignment
-```
-
-### 2. Make the script executable
-
-```bash
-chmod +x scriptname.sh
-```
-
-### 3. Run the script
-
-```bash
-./scriptname.sh
-```
-
-Some checks may require administrator permission:
-
-```bash
-sudo ./scriptname.sh
+chmod +x q1_system_info.sh
+./q1_system_info.sh
 ```
 
 ---
 
-## 🎯 Learning Objectives
+### 2. q2_file_manager.sh  
+This is a simple file management system.
 
-This project demonstrates:
+Options:
+1. Create file  
+2. Display file  
+3. Copy file  
+4. Move file  
+5. Delete file  
+6. Exit  
 
-* Linux user management concepts
-* System security auditing basics
-* Log inspection techniques
-* Bash scripting automation
-* File parsing using command-line tools
+Run:
+```bash
+chmod +x q2_file_manager.sh
+./q2_file_manager.sh
+```
 
 ---
 
-## 👨‍💻 Author
+### 3. q3_log_analyzer.sh  
+This script collects and checks system logs.
 
-**K Tharun Varma **
-Student Project – Linux & Cybersecurity
+It detects:
+- Failed SSH logins  
+- Sudo usage  
+- Authentication failures  
+- Root access  
+
+It saves the report in `alerts.log`.
+
+Run:
+```bash
+chmod +x q3_log_analyzer.sh
+sudo ./q3_log_analyzer.sh
+```
 
 ---
 
-## 📜 License
+### 4. q4_backup.sh  
+This script creates a backup of the current project folder.
 
-This project is created for educational purposes only.
+- Creates a backup folder  
+- Compresses files using tar  
+- Saves log in `backup.log`  
+
+Run:
+```bash
+chmod +x q4_backup.sh
+./q4_backup.sh
+```
+
+---
+
+### 5. Q5_user_report.sh  
+This script generates a user security report.
+
+It:
+- Lists all system users  
+- Shows accounts with UID 0 (root privileges)  
+- Detects accounts without passwords  
+- Shows currently logged-in users  
+- Displays recent login history  
+
+The report is saved in `user_security_report.txt`.
+
+Run:
+```bash
+chmod +x Q5_user_report.sh
+sudo ./Q5_user_report.sh
+```
+
+---
