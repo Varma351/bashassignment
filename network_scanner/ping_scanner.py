@@ -52,7 +52,7 @@ def scan_range(base_ip, start, end):
     return results
 
 #exporting the values to csv file with ip address || status of it || and average time
-def save_to_csv(data, filename="scan_results.csv"):
+def save_to_csv(data, filename="Ping.csv"):
     with open(filename, "w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["IP Address", "Status", "Average Time (ms)"])
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     start = int(input("Start range: "))
     end = int(input("End range: "))
 
-    scan_results = scan_range(base_ip, start, end)
-    save_to_csv(scan_results)
+    Ping = scan_range(base_ip, start, end)
+    save_to_csv(Ping)
