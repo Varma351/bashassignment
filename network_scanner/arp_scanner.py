@@ -86,16 +86,16 @@ def show(entries):
         return
 
     # print table header
-    print("\n" + "=" * 40)
+    print("\n" + "-" * 40)
     print("IP Address        | MAC Address")
-    print("=" * 40)
+    print("-" * 40)
 
     # print each entry
     for e in entries:
         print(f"{e[0]:<18} | {e[1]}")
 
     # print total count
-    print("=" * 40)
+    print("-" * 40)
     print("Total:", len(entries))
 
 
@@ -138,9 +138,9 @@ def save(entries):
 
 # main function (program starts here)
 def main():
-    print("=" * 40)
+    print("-" * 40)
     print("ARP Scanner")
-    print("=" * 40)
+    print("-" * 40)
 
     # print OS info
     print("OS:", platform.system())
