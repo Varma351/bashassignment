@@ -162,6 +162,3 @@ Note: Add your screenshots inside a `screenshots/` folder in your repository.
 This project is intended for educational purposes only. Do not use these tools without proper authorization.
 
 ---
-
-## Author
-Tharun Varma K
